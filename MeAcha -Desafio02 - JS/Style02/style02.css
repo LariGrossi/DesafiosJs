@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+header, main, footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background: linear-gradient( #2196F3, #3D5AFE, #0D47A1);
+    height: 200px;
+}
+h1{
+    height: 40px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+h2{
+    height: 40px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+#icone{    
+    
+     padding-left: 580px;
+    padding-top: 40px;
+    display: flex;
+    align-items: center; 
+}
+
+ 
+ .material-symbols-outlined {
+     color:#2196F3;
+     background-color: white;
+     border-radius: 50%;
+     padding: 10px;
+     font-size: 60px;
+           
+     }
+
+
+
+
+main{
+    width: 100%;
+    height: 100vh; 
+   position: relative;
+   bottom: 200px;
+   right: 6%;
+   
+}
+
+.tamanho{
+    width: 300px;
+    height: 20px;
+}
+form{
+    border: 1px solid black;
+    padding: 20px 40px 20px 40px;
+}
+
+#forma{
+    position: relative;
+    top:40%;
+  left: 45%;
+    padding: 3px;
+    width: min-content;
+    align-items: center;
+}
+
+
+#botao{
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    
+}
+ #botao button{
+    background: #2196F3 ;
+    height: 30px;
+    width: 100%;
+    box-shadow: 0 2px #0d47a1;
+    border: none;
+    color: white ;
+    border-radius: 10px; 
+    outline: none; 
+
+ } 
+  
